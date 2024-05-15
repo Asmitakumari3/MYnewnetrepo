@@ -1,0 +1,16 @@
+<p>branch-info works!</p>
+
+<h1>Branch Details</h1>
+
+<button (click)="_accountsService.getaccountsData()">Get Branch Info</button>
+
+<table border="1">
+    
+    <tr *ngFor="let a of _accountsService.accountsData">
+        <td>{{a.branchNo}}</td>
+        <td>{{a.branchName}}</td>
+        <td>{{a.branchCity}}</td>
+        
+    </tr>
+</table>
+

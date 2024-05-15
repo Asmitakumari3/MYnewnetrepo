@@ -1,0 +1,14 @@
+<h1>Employee Details</h1>
+<div>
+  <h3>{{empNo}} </h3>
+  <h3>{{empName| titlecase}}</h3>
+  <h3> {{ empDesignation|lowercase }}</h3>
+  <h3> {{empSalary |currency: 'INR'}}</h3>
+  <h3> {{empIsActive}}</h3>
+  <h3> {{ empJoiningData | date: 'd MMMM Y'}} </h3>
+  <h3>{{empGraduationPercentage / 100|percent}}</h3>
+  <ul>
+    <li *ngFor="let s of empSkills|slice:2:4">{{s}}</li>
+  </ul>
+  <h2> {{ empWorkProfile| json| titlecase}}</h2>
+</div>

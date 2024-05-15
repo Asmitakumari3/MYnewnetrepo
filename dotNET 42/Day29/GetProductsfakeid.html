@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+
+            function getProductDetails() {
+                
+                    var id= document.getElementById("txtPId").value;
+                    var url = "https://fakestoreapi.com/products/" + id;
+
+                    fetch(url).then(responseDataFormat => responseDataFormat.json())
+                            .then(productData =>{
+
+                                alert('Got the data');
+
+                                var table = document.getElementById("tblProduct");
+                                var row = table.insertRow(0);
+
+                                var col_1 = row.insertCell(0);
+                                var col_2 = row.insertCell(1);
+                                var col_3 = row.insertCell(2);
+                                var col_4 = row.insertCell(3);
+                                var col_5 = row.insertCell(4);
+                                var col_6 = row.insertCell(5);
+                                var col_7 = row.insertCell(6);
+                                var col_8 = row.insertCell(7);
+                                var col_9 = row.insertCell(8);
+                                var col_9 = row.insertCell(9);
+
+                                col_1.innerHTML = productData.id;
+                                col_2.innerHTML = productData.title;
+                                col_3.innerHTML = productData.description;
+                                col_4.innerHTML = productData.category;
+                                col_5.innerHTML ="<img src = " + productData.image + "/>";                                
+                                col_7.innerHTML = productData.rating.rate;
+                                col_8.innerHTML = productData.rating.count;
+                                
+                                
+
+
+
+                            })
+                            .catch(err => {
+                                alert(err);
+                            })
+
+            }
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" placeholder="Enter the Prouct Id" id="txtPId"/>
+    <button onclick="getProductDetails()"> Show Product</button>
+
+    <table id="tblProduct" border="1" id="tblProduct"></table>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<p>account-info works!</p>
+
+<h1>Account Details</h1>
+
+<button (click)="_accountsService.getaccountsData()">Get Account Info</button>
+
+<table border="1">
+    
+    <tr *ngFor="let a of _accountsService.accountsData">
+        <td>{{a.accNo}}</td>
+        <td>{{a.accName}}</td>
+        <td>{{a.accType}}</td>
+        <td>{{a.accBalance}}</td>
+        <td>{{a.accBranch}}</td>
+    </tr>
+</table>
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+        function interest(){
+            
+            var p=parseInt(document.getElementById("principal").value);
+            var r=parseInt(document.getElementById("rate").value);
+            var t=parseInt(document.getElementById("time").value);
+            
+            if(p<0 || p<=99999){
+                
+                document.getElementById("errorline").innerHTML="Principal amount cannot be negative. Minimum Amount is 100000";
+            }
+            else if(t<2)
+            {
+                
+                document.getElementById("errorline").innerHTML="Time duration should be minimum 2 years";
+            }
+            else if(r<8 || r>14){
+                
+                document.getElementById("errorline").innerHTML="Rate of interest should be between 8% p.a and 14% p.a";
+            }
+            else{
+                var interest=(p*r*t)/100;
+                document.getElementById("resultline").innerHTML="Interest: "+interest;
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest</title>
+</head>
+<body>
+    <input type="number"placeholder="Please Enter Principal Amount Here"id="principal"/><br/>
+    <input type="number"placeholder="Please Enter Rate of Interest Here"id="rate"/><br/>
+    <input type="number"placeholder="Please Enter Time Duration in years Here"id="time"/><br/>
+    
+    <button onclick="interest()">Interest</button>
+    <h3 id="errorline"style="color:red;"></h3>
+    <h3 id="resultline"style="color:green;"></h3>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        function getPostData()
+        {
+            var url = "https://fakestoreapi.com/products";
+            fetch(url)
+                     .then(responseDataType =>responseDataType.json())
+                     .then(responseData => {
+                        //alert('Got the data');
+                       // alert(responseData[1].body)
+                       // console.log(responseData);
+                       var table = document.getElementById("tblPost");
+
+                       for(let i=0;i<responseData.length; i++) {
+                        var row= table.insertRow(i);
+                        var col_1 = row.insertCell(0);                       
+                         var col_2 = row.insertCell(1);
+                        var col_3 = row.insertCell(2);
+                        var col_4 = row.insertCell(3);                       
+                         var col_5 = row.insertCell(4);
+                         var col_6 = row.insertCell(5);                         
+                         var col_7 = row.insertCell(6);
+
+                         var col_8 = row.insertCell(7);
+                        var col_9 = row.insertCell(8);
+
+                       col_1.innerHTML = responseData[i].id;
+
+                        col_2.innerHTML = responseData[i].title;                      
+                        col_3.innerHTML = responseData[i].price;
+                        col_4.innerHTML = responseData[i].description;
+                        col_5.innerHTML = responseData[i].category;
+                        col_4.innerHTML = responseData[i].image;                       
+                         col_6.innerHTML = responseData[i].rating;
+                         col_7.innerHTML = responseData[i].rate;                        
+                          col_8.innerHTML = responseData[i].rating;
+                          col_9.innerHTML = responseData[i].count;
+
+
+                       }
+                     })
+                     .catch(errInfo =>{
+                        alert("Errorrrr!!")
+                     })
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getPostData()">Get post</button>
+    <table id="tblPost" border="1"></table>
+</body>
+</html>

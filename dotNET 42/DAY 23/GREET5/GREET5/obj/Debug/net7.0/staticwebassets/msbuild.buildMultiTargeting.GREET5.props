@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GREET5.props" />
+</Project>

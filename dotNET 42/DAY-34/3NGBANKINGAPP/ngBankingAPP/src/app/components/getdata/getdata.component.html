@@ -1,0 +1,13 @@
+<p>getdata works!</p>
+
+<h1>Account Details</h1>
+<button (click)="_accountsService.getaccountsData()">Get Account Info</button>
+
+<table border="1">
+    <tr *ngFor="let a of _accountsService.accountsData">
+        <td>{{a.pId}}</td>
+        <td>{{a.pName}}</td>
+        <td>{{a.pPrice}}</td>
+        <td>{{a.pIsInStock}}</td>
+    </tr>
+</table>

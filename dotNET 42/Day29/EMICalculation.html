@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>EMI Calculation</h2>
+        <form id="emiForm">
+            <label for="principal">Enter Principal Amount:</label>
+            <input type="text" id="principal" name="principal" placeholder="Minimum amount is 100000" required>
+            <label for="duration">Enter Duration in Years:</label>
+            <input type="text" id="duration" name="duration" placeholder="Minimum 2 years" required>
+            <label for="rate">Enter Rate of Interest:</label>
+            <input type="text" id="rate" name="rate" placeholder="Between 8 and 14 only" required>
+            <button type="button" onclick="calculateInterest()">Calculate</button>
+        </form>
+        <h3 id="interestResult"></h3>
+    </div>
+ 
+    <script>
+        function calculateInterest() {
+            var principal = parseFloat(document.getElementById("principal").value);
+            var duration = parseInt(document.getElementById("duration").value);
+            var rate = parseFloat(document.getElementById("rate").value);
+ 
+            // Check if inputs are valid
+            if (principal < 100000 || duration < 2 || rate < 8 || rate > 14) {
+                document.getElementById("interestResult").innerText = "Invalid input. Please check the values.";
+                return;
+            }
+ 
+            // Calculate simple interest
+            var simpleInterest = (principal * duration * rate) / 100;
+ 
+            document.getElementById("interestResult").innerText = "Simple Interest: " + simpleInterest.toFixed(2);
+        }
+    </script>
+</body>
+</html>

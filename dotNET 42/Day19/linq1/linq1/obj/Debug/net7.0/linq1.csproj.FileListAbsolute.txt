@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\bin\Debug\net7.0\linq1.exe
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\bin\Debug\net7.0\linq1.deps.json
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\bin\Debug\net7.0\linq1.runtimeconfig.json
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\bin\Debug\net7.0\linq1.dll
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\bin\Debug\net7.0\linq1.pdb
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\linq1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\linq1.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\linq1.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\linq1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\linq1.dll
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\refint\linq1.dll
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\linq1.pdb
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\linq1.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\C# All\Day19\linq1\linq1\obj\Debug\net7.0\ref\linq1.dll

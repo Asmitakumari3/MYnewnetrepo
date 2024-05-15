@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\bin\Debug\net7.0\BankingAPP2.exe
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\bin\Debug\net7.0\BankingAPP2.deps.json
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\bin\Debug\net7.0\BankingAPP2.runtimeconfig.json
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\bin\Debug\net7.0\BankingAPP2.dll
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\bin\Debug\net7.0\BankingAPP2.pdb
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\BankingAPP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\BankingAPP2.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\BankingAPP2.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\BankingAPP2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\BankingAPP2.dll
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\refint\BankingAPP2.dll
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\BankingAPP2.pdb
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\BankingAPP2.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\C# All\Day6-pillers4\BankingAPP2\BankingAPP2\obj\Debug\net7.0\ref\BankingAPP2.dll

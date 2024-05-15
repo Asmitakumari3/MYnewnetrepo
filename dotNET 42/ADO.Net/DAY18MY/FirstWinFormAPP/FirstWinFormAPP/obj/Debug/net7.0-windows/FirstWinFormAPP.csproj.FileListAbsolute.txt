@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.Form1.resources
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\bin\Debug\net7.0-windows\FirstWinFormAPP.exe
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\bin\Debug\net7.0-windows\FirstWinFormAPP.deps.json
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\bin\Debug\net7.0-windows\FirstWinFormAPP.runtimeconfig.json
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\bin\Debug\net7.0-windows\FirstWinFormAPP.dll
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\bin\Debug\net7.0-windows\FirstWinFormAPP.pdb
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.dll
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\refint\FirstWinFormAPP.dll
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.pdb
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\ref\FirstWinFormAPP.dll
+C:\Users\Administrator\Desktop\ADO.Net\DAY18MY\FirstWinFormAPP\FirstWinFormAPP\obj\Debug\net7.0-windows\FirstWinFormAPP.Calculation.resources

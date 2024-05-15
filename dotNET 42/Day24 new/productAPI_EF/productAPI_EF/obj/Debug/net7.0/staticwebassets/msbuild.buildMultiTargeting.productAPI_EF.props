@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\productAPI_EF.props" />
+</Project>

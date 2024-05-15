@@ -1,0 +1,36 @@
+<p>stock-details works!</p>
+<h1>Stock Info</h1>
+<div>
+    <table>
+        <tr>
+            <th>Stock Id</th>
+            <th>Stock Name</th>
+            <th>Stock Category</th>
+            <th>Buy Quantity</th>
+            <th>Buy Price</th>
+            <th>Current Price</th>
+
+
+            /////
+            inv 
+            curr val
+            status
+            <th>investment</th>
+            <th>stockCurrPrice</th>
+            <th>status</th>
+        </tr>
+        <tr *ngFor="let stock of stocksArr">
+            <td>{{stock.stockId}}</td>
+            <td>{{stock.stockName}}</td>
+            <td>{{stock.stockCategory}}</td>
+            <td>{{stock.stockBuyQn}}</td>
+            <td>{{stock.stockBuyPrice}}</td>
+            <td>{{stock.stockCurrPrice}}</td>
+            <td>{{stock.stockBuyPrice | investmentvalue:stock.stockBuyQn }}</td>
+            <td>{{stock.stockCurrPrice | currentvalue: stock.stockBuyQn}}</td>
+            <td>{{(stock.stockBuyPrice | investmentvalue:stock.stockBuyQn) | investmentstatus: (stock.stockCurrPrice | currentvalue: stock.stockBuyQn)}}</td>
+        </tr>
+    </table>
+    <h2>{{ calcValues() }}</h2>
+</div>
+
