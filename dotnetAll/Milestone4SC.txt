@@ -1,0 +1,1 @@
+Scaffold-DbContext "DA55CE762AC15EE;database=ProductsDB_API; integrated security=true;TrustServerCertificate=true" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir db

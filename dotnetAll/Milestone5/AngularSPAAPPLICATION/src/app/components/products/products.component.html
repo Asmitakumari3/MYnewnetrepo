@@ -1,0 +1,36 @@
+<p>products works!</p>
+<h1> product </h1>
+<div>
+  this is the productpage for Angular SPA APPLICATION
+</div>
+
+
+
+<h1>product Details</h1>
+    <button (click)="_productService.getProductsData()">Get Data</button>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Image</th>
+            <th>discount</th>
+            <th>Final Amount</th>
+            <th>category</th>
+            <th>description</th>
+            <th>rating</th>
+
+        </tr>
+        <tr *ngFor="let p of _productService.productsData">
+            <td>{{p.id}}</td>
+            <td>{{p.title }}</td>
+            <td>{{p.price | currency: '$'}}</td>
+            <td>{{p.description}}</td>
+            <td>{{p.category| titlecase}}</td>
+            <td>{{p.rating.rate}}</td>
+            <td>{{p.price | discount}}</td>
+            <td>{{p.price | finalprice :0.9*p.price|discount|currency: '$'}}</td>
+            <td><img src="{{p.image}}" style="border-radius: 60px;width:  100px;height: 100px;"></td>
+
+        </tr>
+
+    </table>

@@ -1,0 +1,119 @@
+LINQ - SP
+
+1. create a new database insuranceDB_SP_LINQ
+	2. create a table - policyDetails
+		PolicyNo int pk
+		policyName varchar (google some name from intert and get some names of the policies)
+			5 records
+		policyPremieum (this between 5000 and 50000)
+	3. create SP
+		a. get all the policies
+		b. get policy by policyno
+		c. get policy by name
+		d. get policy between range (eg. 8000 and 12000)
+		e. add a new policy
+		f. edit policy premieum by passing the name
+		g. delete policy by no
+	4. create a new console app LINQ_SP
+	5. enable entity framework
+	6. download poco classes
+
+---------------------------------------------------------------------------------------
+
+
+
+
+
+
+	insert into employeeInfo values(1,'Nikhil','Consultant',2000,1)
+	insert into employeeInfo values(2,'Riya','HR',12000,1)
+	insert into employeeInfo values(3,'Jiya','Consultant',22000,0)
+	insert into employeeInfo values(4,'Amin','Sales',90000,1)
+	insert into employeeInfo values(5,'Surbhi','Consultant',120000,1)
+  
+  
+  Microsoft.EntityFrameworkCore.Tools
+  Microsoft.EntityFrameworkCore.Design
+  Microsoft.EntityFrameworkCore.SqlServer
+  Microsoft.EntityFrameworkCore
+  
+  
+  86B46DA2A2A958B
+  EmployeeInfoDB_EF
+  
+  
+  ScaffoldDB-Context "Server=86B46DA2A2A958B;database=EmployeeInfoDB_EF;integrated security=true;TrustServerCertificate=True" -Provider Microsoft.EntityFrameworkCore.SqlServer
+	-outPutDir -DB
+  
+  -outputdir - refers to where should POCO classes get created
+  
+  
+  -----------------------------------------------------------------------------------------------------------
+  
+  1. Create a new database - EmployeeInfoDB_EF
+2. Create a new table EmployeeInfo
+	create table employeeInfo
+	(
+		empNo int primary key,
+		empName varchar(20),
+		empDesignation varchar(20),
+		empSalary int,
+		empIsPermenant bit
+	)
+
+	insert into employeeInfo values(1,'Nikhil','Consultant',2000,1)
+	insert into employeeInfo values(2,'Riya','HR',12000,1)
+	insert into employeeInfo values(3,'Jiya','Consultant',22000,0)
+	insert into employeeInfo values(4,'Amin','Sales',90000,1)
+	insert into employeeInfo values(5,'Surbhi','Consultant',120000,1)
+
+3. Create a new .net core application - console app - empAPP_EF
+4. Application has no idea about EntityFramework, thus we will have to add Nuget packages
+	Solution explorer -> right click project name -> Manage Nuget package
+	in the browse section, in search box, enter entityframework
+	(Make sure to choose the right version as per your application, else error)
+  Microsoft.EntityFrameworkCore.Tools
+  Microsoft.EntityFrameworkCore.Design
+  Microsoft.EntityFrameworkCore.SqlServer
+  Microsoft.EntityFrameworkCore
+
+
+5. We need to ready the connection string on Notepad so that we can paste it on command prompr
+
+	Server=;database=;user name=;password=  (for server authentication)
+	Server=86B46DA2A2A958B;database=EmployeeInfoDB_EF;integrated security=true
+
+6. We now need to fire EF command from console Manger to download POCO classes
+	tools -> Nuget package manger -> package manager console
+	command is
+	ScaffoldDB-Context "Server=86B46DA2A2A958B;database=EmployeeInfoDB_EF;integrated security=true;TrustServerCertificate=True
+" -Provider Microsoft.EntityFrameworkCore.SqlServer
+	-outPutDir -DB
+`
+7. this will download POCO classes in DB folder (check in solution explorer)
+8. Build the project
+9. we are now ready to fire LINQ query and display the data
+10. in program.cs, we will have to create a new object of Context class
+	EmployeeInfoDBContext db = new EmployeeInfoDBContext();//source for LINQ queries
+	var emp = from e in db.EmployeeInfo
+		  select e; (you can use filter, order by, group by, in between this 2 lines)
+
+	foreach(var item in emp)
+	{
+		cw(item.empNo);
+		cw(item.empName);
+		cw(item.empDesignation);
+	}
+				
+
+
+
+
+
+
+
+
+
+		
+	
+

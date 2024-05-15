@@ -1,0 +1,265 @@
+    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}    int num1 = Convert.ToInt32(textBox2.Text);
+    int num2 = Convert.ToInt32(textBox2.Text);
+    if (comboBox1.Text == "Add")
+    {
+        MessageBox.Show("Addition" + (num1 + num2));
+    }
+    if (comboBox1.Text == "Subtract")
+    {
+        MessageBox.Show("Subtraction" + (num1 - num2));
+
+    }
+    if (comboBox1.Text == "Multiply")
+    {
+        MessageBox.Show("Multiplication" + (num1 * num2));
+
+    }
+    if (comboBox1.Text == "Divide")
+    {
+        MessageBox.Show("Division" + (num1 / num2));
+
+    }
+
+}

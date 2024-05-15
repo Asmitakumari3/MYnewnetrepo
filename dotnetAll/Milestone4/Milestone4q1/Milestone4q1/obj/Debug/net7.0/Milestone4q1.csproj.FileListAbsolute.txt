@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Milestone4\Milestone4q1\Milestone4q1\obj\Debug\net7.0\Milestone4q1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Milestone4\Milestone4q1\Milestone4q1\obj\Debug\net7.0\Milestone4q1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Milestone4\Milestone4q1\Milestone4q1\obj\Debug\net7.0\Milestone4q1.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Milestone4\Milestone4q1\Milestone4q1\obj\Debug\net7.0\Milestone4q1.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Milestone4\Milestone4q1\Milestone4q1\obj\Debug\net7.0\Milestone4q1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Milestone4\Milestone4q1\Milestone4q1\obj\Debug\net7.0\Milestone4q1.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,11 @@
+DA55CE762AC15EE
+
+EmployeeInfoDB_EF
+
+ScaffoldDB-Context "Server=DA55CE762AC15EE;database=EmployeeInfoDB_EF;integrated security=true;TrustServerCertificate=True" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir -DB
+1.
+using System.Data;
+using System.Data.SqlClient;
+
+
+SqlConnection con = new SqlConnection("server=bookinginstance/sqlserver;database=HolidayBookingDB;username=holidaysadmin;password=Holidays@1234");

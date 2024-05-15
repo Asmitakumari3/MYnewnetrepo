@@ -1,0 +1,22 @@
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #aae225   ;
+    padding: 10px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #15b4f3;
+    color: black;
+    text-align: center;
+}
+.button-container a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.button-container a:hover{
+    background-color: #e9d41e;
+}

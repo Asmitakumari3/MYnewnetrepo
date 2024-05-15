@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Milestone4\M4WebApplication1\M4WebApplication1\obj\Debug\net7.0\M4WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Milestone4\M4WebApplication1\M4WebApplication1\obj\Debug\net7.0\M4WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Milestone4\M4WebApplication1\M4WebApplication1\obj\Debug\net7.0\M4WebApplication1.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Milestone4\M4WebApplication1\M4WebApplication1\obj\Debug\net7.0\M4WebApplication1.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Milestone4\M4WebApplication1\M4WebApplication1\obj\Debug\net7.0\M4WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Milestone4\M4WebApplication1\M4WebApplication1\obj\Debug\net7.0\M4WebApplication1.MvcApplicationPartsAssemblyInfo.cache

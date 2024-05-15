@@ -1,0 +1,165 @@
+anu 18April
+
+// See https://aka.ms/new-console-template for more information
+
+using Microsoft.Data.SqlClient;
+
+//SqlConnection con = new SqlConnection("server=2CD1AB57098A5FC;database=empDB_SP;integrated security=true;TrustServerCertificate=true");
+//SqlCommand cmd = new SqlCommand("proc_dept", con);
+//cmd.CommandType=System.Data.CommandType.StoredProcedure;
+
+//con.Open();
+//SqlDataReader read = cmd.ExecuteReader();s
+
+//while(read.Read())
+//{
+//    Console.WriteLine(read[0]);
+//    Console.WriteLine(read[1]);
+//    Console.WriteLine(read[2]);
+//    Console.WriteLine("----------------------");
+//}
+//read.Close();
+//con.Close();
+
+//select one record
+//SqlConnection con = new SqlConnection("server=2CD1AB57098A5FC;database=empDB_SP;integrated security=true;TrustServerCertificate=true");
+//SqlCommand cmd = new SqlCommand("proc_dept_sel", con);
+//cmd.CommandType = System.Data.CommandType.StoredProcedure;
+//Console.WriteLine("Enter the department number");
+//int deptNo=Convert.ToInt32(Console.ReadLine());
+//cmd.Parameters.AddWithValue("@dNo", deptNo);
+//con.Open();
+
+//SqlDataReader read = cmd.ExecuteReader(); 
+
+//if(read.Read())
+//{
+//    Console.WriteLine(read[0]);
+//    Console.WriteLine(read[1]);
+//    Console.WriteLine(read[2]);
+//}
+
+//else
+//{
+//    Console.WriteLine("Dept not found");
+//}
+//read.Close();
+
+//con.Close();
+
+
+//SqlConnection con = new SqlConnection("server=2CD1AB57098A5FC;database=empDB_SP;integrated security=true;TrustServerCertificate=true");
+//SqlCommand cmd = new SqlCommand("proc_dept_mul", con);
+//cmd.CommandType = System.Data.CommandType.StoredProcedure;
+//Console.WriteLine("Enter the City ");
+//string deptCity = Console.ReadLine();
+//cmd.Parameters.AddWithValue("@dCity", deptCity);
+//con.Open();
+
+//SqlDataReader read = cmd.ExecuteReader();
+
+
+
+
+//if (read.Read() )
+//{
+//    if (read[0] != null)
+//    {
+
+
+//        Console.WriteLine(read[0]);
+//        Console.WriteLine(read[1]);
+//        Console.WriteLine(read[2]);
+
+//        while(read.Read())
+//        {
+//            Console.WriteLine(read[0]);
+//            Console.WriteLine(read[1]);
+//            Console.WriteLine(read[2]);
+//        }
+
+
+//    }
+
+
+//}
+
+//else
+//{
+//    Console.WriteLine("Dept not found");
+//}
+
+//read.Close();
+
+//con.Close();
+
+/* Insering a new record*/
+
+//SqlConnection con = new SqlConnection("server=2CD1AB57098A5FC;database=empDB_SP;integrated security=true;TrustServerCertificate=true");
+//SqlCommand cmd = new SqlCommand("proc_dept_insert", con);
+//cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+//Console.WriteLine("Enter the DeptNo ");
+//int deptNo = Convert.ToInt32(Console.ReadLine());
+
+//Console.WriteLine("Enter department name");
+//string deptName=Console.ReadLine(); 
+
+//Console.WriteLine("Enter department city");
+//string deptCity = Console.ReadLine();
+
+//cmd.Parameters.AddWithValue("@dNo", deptNo);
+//cmd.Parameters.AddWithValue("@dName", deptName);
+//cmd.Parameters.AddWithValue("@dCity", deptCity);
+
+//con.Open();
+
+//int rows = cmd.ExecuteNonQuery();
+
+//Console.WriteLine("Record added");
+
+//con.Close();    
+
+
+/*deleting a new record */
+
+//SqlConnection con = new SqlConnection("server=2CD1AB57098A5FC;database=empDB_SP;integrated security=true;TrustServerCertificate=true");
+//SqlCommand cmd = new SqlCommand("proc_dept_del", con);
+//cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+//Console.WriteLine("Enter the DeptNo ");
+//int deptNo = Convert.ToInt32(Console.ReadLine());
+
+
+//cmd.Parameters.AddWithValue("@dNo", deptNo);
+
+//con.Open();
+
+//int rows = cmd.ExecuteNonQuery();
+
+//Console.WriteLine("Department deleted");
+
+//con.Close();
+
+
+/*update a record */
+
+ SqlConnection con = new SqlConnection("server=2CD1AB57098A5FC;database=empDB_SP;integrated security=true;TrustServerCertificate=true");
+SqlCommand cmd = new SqlCommand("proc_dept_update", con);
+cmd.CommandType = System.Data.CommandType.StoredProcedure;
+
+Console.WriteLine("Enter the DeptNo ");
+int deptNo = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter department city");
+string deptCity = Console.ReadLine();
+
+cmd.Parameters.AddWithValue("@dNo", deptNo);
+
+cmd.Parameters.AddWithValue("@dCity", deptCity);
+
+con.Open();
+
+int rows = cmd.ExecuteNonQuery();
+Console.WriteLine("Record updated ");
+
+con.Close();
